@@ -54,7 +54,6 @@ def binary_search(array, element, left, right):
     if left > right:  # если левая граница превысила правую,
         return False  # значит элемент отсутствует
     middle = (right + left) // 2  # находим середину
-    print(middle)
     if middle == len(array)-1:  # если смотрим последний элемент, то не выполнится условие про следующий элемент
         return False  # значит элемент отсутствует
     else:
